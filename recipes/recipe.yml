@@ -34,7 +34,7 @@ modules:
       - zlib-devel
       - gdbm-devel
       - ncurses-devel
-      # Generatl development
+      # General development
       - fd-find
       - fish
       - fzf
@@ -54,8 +54,8 @@ modules:
   - type: fonts
     fonts:
       nerd-fonts:
-        - BlexMono
-        - Monospice
+        - IBMPlexMono
+        - Monaspace
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
