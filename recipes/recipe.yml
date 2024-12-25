@@ -43,6 +43,8 @@ modules:
       - neovim
       # System stuff
       - fastfetch
+      # Media
+      - vlc
       # - micro
       # - starship
     remove:
