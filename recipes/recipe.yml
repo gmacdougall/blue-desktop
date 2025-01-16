@@ -41,6 +41,7 @@ modules:
       - git-delta
       - mise
       - neovim
+      - tmux
       # System stuff
       - fastfetch
       # Media
