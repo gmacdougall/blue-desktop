@@ -24,7 +24,7 @@ modules:
     install:
       # Requirements for ruby-build
       - autoconf
-      - gcc
+      #- gcc
       - rust
       - patch
       - make
