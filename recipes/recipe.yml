@@ -23,11 +23,11 @@ modules:
       - https://mise.jdx.dev/rpm/mise.repo
     install:
       # Requirements for ruby-build
-      #- autoconf
-      #- gcc
-      #- rust
-      #- patch
-      #- make
+      - autoconf
+      - gcc
+      - rust
+      - patch
+      - make
       - bzip2
       - openssl-devel
       - libyaml-devel
