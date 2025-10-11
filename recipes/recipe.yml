@@ -47,8 +47,6 @@ modules:
       # System stuff
       - dnsconfd
       - fastfetch
-      # Requirements for lock screen and such
-      - sway
       # Media
       - vlc
       # VPN
