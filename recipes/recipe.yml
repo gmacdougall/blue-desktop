@@ -45,9 +45,14 @@ modules:
       - neovim
       - tmux
       # System stuff
+      - dnsconfd
       - fastfetch
+      # Requirements for lock screen and such
+      - sway
       # Media
       - vlc
+      # VPN
+      - tailscale
       # - micro
       # - starship
     remove: []
