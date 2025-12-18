@@ -21,6 +21,7 @@ modules:
   - type: rpm-ostree
     repos:
       - https://mise.jdx.dev/rpm/mise.repo
+      - https://repo.librewolf.net/librewolf.repo
     install:
       # Requirements for ruby-build
       - autoconf
@@ -51,6 +52,8 @@ modules:
       - vlc
       # VPN
       - tailscale
+      # Browser
+      - librewolf
       # - micro
       # - starship
     remove: []
