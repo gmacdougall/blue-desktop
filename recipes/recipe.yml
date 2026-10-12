@@ -54,6 +54,8 @@ modules:
       - tailscale
       # Browser
       - librewolf
+      # hyprland
+      - hyprlauncher
       # - micro
       # - starship
     remove: []
