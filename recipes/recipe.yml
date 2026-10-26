@@ -22,6 +22,7 @@ modules:
     repos:
       - https://mise.jdx.dev/rpm/mise.repo
       - https://repo.librewolf.net/librewolf.repo
+      - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
     install:
       # Requirements for ruby-build
       - autoconf
